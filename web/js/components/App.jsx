@@ -94,7 +94,7 @@ export default class App extends Component {
                 <button className='search-button' onClick={this.search}>Search</button>
             </div>
             <div style={{padding:20}}>
-                <a href="http://policysimulator">discover the future with the policy simulator</a>
+                <a href="http://policysimulator.com">discover the future with the policy simulator</a>
             </div>
             {loader}
             {chart}
