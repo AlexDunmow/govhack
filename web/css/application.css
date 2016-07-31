@@ -39,7 +39,9 @@ a {
 }
 .search-box {
   border: 1px solid grey;
+  height: 50px;
   width: 500px;
+  position: relative;
   -webkit-border-radius: 3px;
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.50);
   color: white;
@@ -48,16 +50,27 @@ a {
 .search-input {
   width: 410px;
   border:0px;
-  height: 30px;
   padding: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
   padding-left:10px;
 }
+
+input {
+  padding: 5px 0;
+  font-size: 16px;
+  height: 45px;
+}
 .search-button {
-  width: 80px;
-  height: 30px;
+  width: 95px;
+  height: 45px;
+  position: absolute;
+  right: 0;
   border: 0;
+  top: 0;
   border-left: 1px solid grey;
-  background: #5680b5;
+  background: rgb(77,169,245);
   color: #eee;
 }
 
@@ -69,7 +82,7 @@ a {
 .__react_component_tooltip h4 {
   font-size: 20px;
   color: rgb(77,169,245);
-  margin: 0 19px;
+  margin: 10px 0;
 }
 
 .chart {
