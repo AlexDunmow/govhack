@@ -61,6 +61,17 @@ a {
   color: #eee;
 }
 
+.__react_component_tooltip {
+  width: 400px;
+  text-align:left
+}
+
+.__react_component_tooltip h4 {
+  font-size: 20px;
+  color: rgb(77,169,245);
+  margin-bottom: 5px;
+}
+
 .chart {
   width: 500px;
   height: 500px;
