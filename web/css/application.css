@@ -72,6 +72,8 @@ input {
   border-left: 1px solid grey;
   background: rgb(77,169,245);
   color: #eee;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .__react_component_tooltip {
